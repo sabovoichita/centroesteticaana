@@ -128,3 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# exclude some files from git
+echo /.vscode >> .gitignore
+echo /node_modules >> .gitignore
